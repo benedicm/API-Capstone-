@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width">
+	<script src="https://code.jquery.com/jquery-3.1.0.js"></script>
+	<link href="index.css" rel="stylesheet" type="text/css" />
+    <link href="float-grid.css" rel="stylesheet" type="text/css" />
+    <script src="//cdnjs.cloudflare.com/ajax/libs/moment.js/2.7.0/moment.min.js"></script>
+    <script src="moment.js"></script>
+    <script>
+      moment().format();
+    </script>
+	<title>JS Bin</title>
+</head>
+
+<body>
+	<div class="container">
+	  
+		<main id="main" role="main">
+			<section id="start-page" role="start page">
+				<div class="start-page">
+					<h1>eBay Sportscollector's Card Search </h1>
+					<h5>Discover the real-time  market value of your favorite sports trading cards! </h5>
+					<div class="row">
+            <div class="col-4">
+              <div class="card">
+						  <img src="paytonrookie.jpg" alt="payton">
+						  </div>
+						</div>
+						<div class="col-4">
+						  <div class="description">
+						  <p>Trading cards aren't traded in stores anymore; they're traded on eBay.<br><br><br><br>This app determines for buyers the last sale price of their favorite cards.
+						  </p>
+						  </div>
+						</div>
+						<div class="col-4">
+						  <div class="card">
+						    <img src="joenamath.jpg" alt="namath">
+						  </div>
+					  </div>
+					 </div>
+					<button class="start-search">Go to Search</button>
+				
+			</section>
+			<section id="search_and_results" role="search_and_results">
+				<div class ="search-page">
+                    <div class="navigation-bar" role="navigation bar">
+                        <ul>
+                            <span>eBay Sportscardcollector's Search</span>
+                            <a href="" class="navlinks">Back</a>
+                                                      
+                        </ul>
+                    </div>
+					
+                    <div class="search-area">
+                            <form class="form">
+						
+                                    <input type="text"  placeholder="type player name here"   id="search">
+                                    
+                                    <button class="explore"  type="submit">Search</button>
+                                    <button class="explore" type="submit" id="clear-search">New Search</button> 
+                            </form>
+                              
+                    </div>
+					
+					
+					<div id="results"></div>
+				</div>
+			</section>
+		</main>
+	</div>
+	<script src="index.js"></script>
+</body>
+
+</html>
