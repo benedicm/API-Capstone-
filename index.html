@@ -3,15 +3,10 @@
 
 <head>
 	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width">
+	<meta name="viewport" content="width=device-width", initial-scale=1">
 	<script src="https://code.jquery.com/jquery-3.1.0.js"></script>
 	<link href="index.css" rel="stylesheet" type="text/css" />
     <link href="float-grid.css" rel="stylesheet" type="text/css" />
-    <script src="//cdnjs.cloudflare.com/ajax/libs/moment.js/2.7.0/moment.min.js"></script>
-    <script src="moment.js"></script>
-    <script>
-      moment().format();
-    </script>
 	<title>JS Bin</title>
 </head>
 
@@ -56,11 +51,13 @@
 					
                     <div class="search-area">
                             <form class="form">
-						
+                                
                                     <input type="text"  placeholder="type player name here"   id="search">
-                                    
-                                    <button class="explore"  type="submit">Search</button>
+                                 
+                                
+                                    <button class="explore"  type="submit" id="begin-search">Search</button>
                                     <button class="explore" type="submit" id="clear-search">New Search</button> 
+                                
                             </form>
                               
                     </div>

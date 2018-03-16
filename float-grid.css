@@ -24,6 +24,9 @@
 .col-3, .col-4, .col-6, .col-12 {
   float: left;
 
+
+
+
   /* Gutters:
    * Each column padded by half gutter on each side,
    *
@@ -32,6 +35,12 @@
    */
   padding-left: 1.04166666%;
   padding-right: 1.04166666%;
+}
+
+[class*="col-"] {
+    float: left;
+    padding: 15px;
+    
 }
 
 /* Mobile defaults */

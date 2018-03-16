@@ -14,7 +14,7 @@ img {
 
 
 h1 {
-  font-size: 200%;
+  font-size: 25vm;
   text-align: center;
   color: black;
   text-shadow: 2px 2px 4px #000000;
@@ -29,6 +29,7 @@ h1 {
 
 .description {
     font-size: 20px;
+    text-align: center;
 }
 
 
@@ -42,11 +43,12 @@ h1 {
     right:0;
     font-family: Arial;
     margin-bottom: 40px;
-    font-size: 150%;
+    font-size: 15vm;
     text-align: center;
     color: black;
     text-shadow: 2px 2px 4px #000000;
     letter-spacing: 0.6rem; 
+    width: 100%;
 
          
     
@@ -54,6 +56,7 @@ h1 {
 
 .search-area {
     margin-top: 50px;
+    width: 100%;
 }
 
 .ul {
@@ -75,14 +78,15 @@ h5 {
   line-height: 30px;
   height: 30px;
   border: 2px solid black;
-  
   padding: 0 5px 0 8px;
-  width: 750px;
+  width: 50%;
+  
   
 }
 
 
 .start-page {
+
     border: 3px solid black;
     padding: 10px;
     border-radius: 25px; 
@@ -100,14 +104,13 @@ h5 {
   border: 2px solid black;
   border-radius: 35px;
   padding: 0 5px 0 8px;
-  width: 750px;
   
 }
 
 .start-search {
   border-radius: 25px;
   background-color: white;
-  padding: 12px;
+  padding: 15px;
   border: 3px solid black;
   color: #000000;
   font-size: 1.8rem;
@@ -128,10 +131,12 @@ h5 {
     background: #FFD700;
   }
 
-
+.form {
+    width: 100%;
+}
 .explore {
   
-  width: 15%;
+  
   -webkit-transition-duration: 0.4s; 
   transition-duration: 0.4s;
   padding: 5px;
@@ -143,8 +148,14 @@ h5 {
   font-size: 105%;
   margin-top: 15px;
   padding: 0 5px 0 8px;
+  width: 20%;
 }
-
+#begin-search {
+    width: 20%;
+}
+#clear-search {
+    width: 20%;
+}
 .explore:hover {
     background: #FFD700;
   }
