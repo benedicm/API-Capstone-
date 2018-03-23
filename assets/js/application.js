@@ -61,7 +61,7 @@ function formSubmit(event) {
     securityAppName: 'MarkBene-CardColl-PRD-b5d8a3c47-2072216b',
     findBy: 'findCompletedItems',
   };
-  const url = `http://svcs.ebay.com/services/search/FindingService/v1?OPERATION-NAME=${
+  const url = `https://svcs.ebay.com/services/search/FindingService/v1?OPERATION-NAME=${
     filter.findBy
   }&SERVICE-VERSION=1.0.0&SECURITY-APPNAME=${
     filter.securityAppName
@@ -75,7 +75,7 @@ function formSubmit(event) {
 $('.search-form input[type=reset]').click(function(event) {
   event.preventDefault();
   $('.search-results').empty();
-  document.getElementById('search').value = '';
+  $('.search-form input[type=text]').val("");
 });
 function init() {
   $('.start-search').click(function() {
